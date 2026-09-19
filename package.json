@@ -1,14 +1,7 @@
 {
   "name": "@just1-dev/mcp-cv",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MCP server to ask questions about Justin, full stack developer, from your AI assistant.",
-  "keywords": [
-    "mcp",
-    "model-context-protocol",
-    "portfolio",
-    "claude",
-    "typescript"
-  ],
   "license": "MIT",
   "type": "module",
   "bin": {

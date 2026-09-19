@@ -1,5 +1,7 @@
 # mcp-cv
 
+[![npm](https://img.shields.io/npm/v/@just1-dev/mcp-cv)](https://www.npmjs.com/package/@just1-dev/mcp-cv)
+
 > My resume, queryable from your AI assistant.
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that exposes my background, projects and contact details. Plug it into Claude, Cursor or any MCP client and just ask: _"Who is Justin?"_, _"Has he used Kafka?"_, _"How can I reach him?"_.

@@ -94,7 +94,10 @@ export const cv: Cv = {
         "A TypeScript MCP server published on npm. It exposes the resume as tools the model calls on its own and as resources a reader can attach, with one set of schemas for types and validation.",
       results: ["One-line install with npx", "Schema-validated structured outputs", "Tested and checked in CI"],
       stack: ["TypeScript", "Node.js", "MCP"],
-      links: { npm: "https://www.npmjs.com/package/@just1-dev/mcp-cv" },
+      links: {
+        repo: "https://github.com/123justin123/Just1-MCP",
+        npm: "https://www.npmjs.com/package/@just1-dev/mcp-cv",
+      },
     },
   ],
 

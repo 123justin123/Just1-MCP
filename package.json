@@ -1,0 +1,47 @@
+{
+  "name": "@just1-dev/mcp-cv",
+  "version": "0.1.0",
+  "description": "MCP server to ask questions about Justin, full stack developer, from your AI assistant.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "portfolio",
+    "claude",
+    "typescript"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-cv": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/**/*.test.ts\"",
+    "test:watch": "node --import tsx --test --watch \"test/**/*.test.ts\"",
+    "inspect": "npm run build && npx @modelcontextprotocol/inspector@latest node dist/index.js",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@just1-dev/mcp-cv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server to ask questions about Justin, full stack developer, from your AI assistant.",
   "license": "MIT",
   "repository": {

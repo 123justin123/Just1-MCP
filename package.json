@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "MCP server to ask questions about Justin, full stack developer, from your AI assistant.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123justin123/Just1-MCP.git"
+  },
   "type": "module",
   "bin": {
     "mcp-cv": "dist/index.js"
